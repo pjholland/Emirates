@@ -1,0 +1,46 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 10,
+        "name": "The customer is able to user is able to search for a flight",
+        "description": "",
+        "id": "search-page;the-customer-is-able-to-user-is-able-to-search-for-a-flight",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "the customer is on the search flights page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "the customer enters details for a \"return\" flightSce",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@current"
+          }
+        ]
+      }
+    ],
+    "name": "Search Page",
+    "description": "\r\n      In order to maintain an on-line booking\r\n      I want to visit the search page\r\n      So that visitors can book my fights from a variaty of options",
+    "id": "search-page",
+    "keyword": "Feature",
+    "uri": "searchpage.feature"
+  }
+]
